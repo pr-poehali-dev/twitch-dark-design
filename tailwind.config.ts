@@ -61,7 +61,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				minecraft: {
+					'dark': '#1F2937',
+					'darker': '#111827',
+					'green': '#10B981',
+					'purple': '#8B5CF6',
+					'accent': '#F59E0B',
+					'text': '#F9FAFB'
 				}
+			},
+			fontFamily: {
+				'minecraft': ['Orbitron', 'monospace'],
+				'body': ['Roboto', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
